@@ -7,13 +7,13 @@ const MockData = [
   },
   {
     id: 2,
-    url: "WWW.office.com",
+    url: "https://www.office.com/",
     description:
       "Collaborate for free with online versions of Microsoft Word, PowerPoint, Excel, and OneNote. Save documents, workbooks, and presentations online",
   },
   {
     id: 3,
-    url: "WWW.wikipedia.org",
+    url: "https://en.wikipedia.org/wiki/Microsoft",
     description:
       "Microsoft Corporation is an American multinational corporation and technology company headquartered in Redmond, Washington.",
   },
