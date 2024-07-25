@@ -55,7 +55,7 @@ function ResultPage() {
           <ul className={style.data}>
             {MockData.map((data) => (
               <li key={data.id}>
-                {data.url}
+                <a>{data.url}</a>
                 <br />
                 {data.description}
               </li>
