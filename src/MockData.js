@@ -1,7 +1,7 @@
 const MockData = [
   {
     id: 1,
-    url: "WWW.microsoft.com",
+    url: "https://www.microsoft.com/en-jo",
     description:
       "Explore Microsoft products and services for your home or business. Shop Microsoft 365, Windows, Azure, and more. Find downloads and get support.",
   },
