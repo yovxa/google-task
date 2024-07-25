@@ -1,5 +1,7 @@
 body {
-
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
   background-color: #292929;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -10,7 +12,7 @@ body {
   margin-top: 5px;
 }
 
-nav {
+.nav {
   display: flex;
   justify-content: end;
 }

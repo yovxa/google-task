@@ -22,7 +22,7 @@ function HomePage() {
      
       <main>
         <form onSubmit={handleSubmit}>
-          <nav>
+          <nav className={style.nav}>
             <ul>
               <li>
                 <a href="./HomePage.js" className={style.A}>Gmail</a>
