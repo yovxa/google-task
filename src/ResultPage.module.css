@@ -1,0 +1,75 @@
+.RPage {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #292929;
+  position: relative;
+  z-index: 1;
+  margin: 0;
+}
+
+.Nav2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding-left: 10px;
+  font-size: 2ex;
+  margin-left: 150px;
+}
+
+.RPage ul,
+.Nav2 ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.RPage li,
+.Nav2 li {
+  margin: 0 10px;
+}
+
+.RPage .logo {
+  height: 40px;
+}
+.Search {
+  width: 600px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #292929;
+  border-color: rgba(165, 165, 165, 0.612);
+  border-style: solid;
+  color: white;
+  font-size: 17px;
+  text-indent: 10px;
+}
+
+.searchResults {
+  border-bottom-style: solid;
+  border-color: #949494;
+  border-width: 1px;
+  margin-top: 20px;
+}
+
+.resultItem {
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.data {
+  color: #949494;
+  margin-left: 120px;
+}

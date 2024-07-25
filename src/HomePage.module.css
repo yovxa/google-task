@@ -1,0 +1,88 @@
+body {
+  background-color: #292929;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  float: left;
+  padding: 13px;
+}
+
+.A {
+  color: white;
+  text-decoration: none;
+}
+
+.A:hover {
+  text-decoration: underline;
+}
+
+.appbutton {
+  height: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  position: static;
+}
+
+.Search {
+  width: 600px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #292929;
+  border-color: rgba(165, 165, 165, 0.612);
+  border-style: solid;
+  color: white;
+  font-size: 17px;
+  text-indent: 10px;
+}
+
+.Search:hover {
+  background-color: #373636;
+}
+
+.Logo {
+  width: 300px;
+  padding: 10px;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+}
+
+.searchbtn {
+  background-color: #373636;
+  color: white;
+  width: 10em;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #373636;
+  font-size: 17px;
+}
+
+.searchbtn:hover {
+  border-color: #565656;
+}
