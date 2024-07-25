@@ -71,13 +71,12 @@ a:hover {
   text-decoration: underline;
 }
 
-
 .data {
   color: #949494;
   margin-left: 120px;
-  margin-right: 150px;
+  padding-right: 100px;
 }
 
-.link{
+.link {
   color: aquamarine;
 }
