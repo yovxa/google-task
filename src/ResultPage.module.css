@@ -1,6 +1,7 @@
 .RPage {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   background-color: #292929;
@@ -11,6 +12,7 @@
 
 .Nav2 {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   position: relative;
@@ -23,6 +25,7 @@
 .Nav2 ul {
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin: 0;
   padding: 0;
