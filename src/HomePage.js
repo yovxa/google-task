@@ -13,7 +13,7 @@ function HomePage() {
       setError("Search field cannot be empty");
     } else {
       setError("");
-      navigate("/Result", { state: { search } });
+      navigate("/ResultPage", { state: { search } });
     }
   };
 
@@ -24,17 +24,17 @@ function HomePage() {
           <nav className={style.nav}>
             <ul>
               <li>
-                <a href="/" className={style.A}>
+                <a href="./HomePage.js" className={style.A}>
                   Gmail
                 </a>
               </li>
               <li>
-                <a href="/" className={style.A}>
+                <a href="./HomePage.js" className={style.A}>
                   Images
                 </a>
               </li>
               <li>
-                <a href="/" className={style.A}>
+                <a href="./HomePage.js" className={style.A}>
                   <img
                     src="app-button.png"
                     className={style.appbutton}
