@@ -10,7 +10,7 @@ function App() {
      <BrowserRouter>
       <Routes>
       <Route exact path="/" element={<Home />} />
-      <Route path="/ResultPage" element={<Result />} />
+      <Route path="/Result" element={<Result />} />
       </Routes>
     </BrowserRouter>
 

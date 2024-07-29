@@ -13,25 +13,28 @@ function HomePage() {
       setError("Search field cannot be empty");
     } else {
       setError("");
-      navigate("/ResultPage", { state: { search } });
+      navigate("/Result", { state: { search } });
     }
   };
 
   return (
     <>
-     
       <main>
         <form onSubmit={handleSubmit}>
           <nav className={style.nav}>
             <ul>
               <li>
-                <a href="./HomePage.js" className={style.A}>Gmail</a>
+                <a href="/" className={style.A}>
+                  Gmail
+                </a>
               </li>
               <li>
-                <a href="./HomePage.js" className={style.A}>Images</a>
+                <a href="/" className={style.A}>
+                  Images
+                </a>
               </li>
               <li>
-                <a href="./HomePage.js" className={style.A}>
+                <a href="/" className={style.A}>
                   <img
                     src="app-button.png"
                     className={style.appbutton}
@@ -43,7 +46,11 @@ function HomePage() {
           </nav>
 
           <div className={style.container}>
-            <img src="google-logo.png" className={style.Logo} alt="Google Logo" />
+            <img
+              src="google-logo.png"
+              className={style.Logo}
+              alt="Google Logo"
+            />
             <input
               type="text"
               value={search}

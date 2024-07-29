@@ -52,7 +52,7 @@
 }
 
 .searchResults {
-  border-bottom-style: solid;
+  border-top-style: solid;
   border-color: #949494;
   border-width: 1px;
   margin-top: 20px;
@@ -78,5 +78,20 @@ a:hover {
 }
 
 .link {
-  color: aquamarine;
+  color: #00B8FF;
+}
+
+.searchButton {
+  background: none;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.icon{
+  height: 30px;
+}
+
+.text{
+  color: white;
+  font-size: 30px;
 }
