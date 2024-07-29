@@ -2,8 +2,8 @@ import { useLocation, useNavigate } from "react-router-dom";
 import style from "./ResultPage.module.css";
 import { useEffect, useState } from "react";
 
-const API_KEY = "AIzaSyBVqVLSD1_r3MLhk3aabK_O2WaouxqJD4o";
-const CX = "c4bae9f794db842a5";
+const API_KEY = "AIzaSyB08nrINsrtIRnxQ0GdAaHRwJLldcRYAro";
+const CX = "f0aea2427abcc4e43";
 const API_ENDPOINT = `https://www.googleapis.com/customsearch/v1?key=${API_KEY}&cx=${CX}`;
 
 function ResultPage() {
