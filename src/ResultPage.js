@@ -2,7 +2,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import style from "./ResultPage.module.css";
 import { useEffect, useState } from "react";
 
-const API_KEY = "AIzaSyBSaWfIvAukKpm7paxKejqZPKmQJUyY-80";
+const API_KEY = "AIzaSyBVqVLSD1_r3MLhk3aabK_O2WaouxqJD4o";
 const CX = "c4bae9f794db842a5";
 const API_ENDPOINT = `https://www.googleapis.com/customsearch/v1?key=${API_KEY}&cx=${CX}`;
 
