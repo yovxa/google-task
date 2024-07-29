@@ -13,7 +13,7 @@ function HomePage() {
       setError("Search field cannot be empty");
     } else {
       setError("");
-      navigate("/ResultPage", { state: { search } });
+      navigate("/Result", { state: { search } });
     }
   };
 
