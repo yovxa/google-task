@@ -63,7 +63,11 @@ function ResultPage() {
                 onChange={(e) => setSearch(e.target.value)}
               />
               <button type="submit" className={style.searchButton}>
-                <img src="search-icon.png" alt="Search" className={style.icon} />
+                <img
+                  src="search-icon.png"
+                  alt="Search"
+                  className={style.icon}
+                />
               </button>
             </form>
           </li>
@@ -102,7 +106,9 @@ function ResultPage() {
             <ul className={style.data}>
               {results.map((data) => (
                 <li key={data.cacheId}>
-                  <a href={data.link} className={style.link}>{data.title}</a>
+                  <a href={data.link} className={style.link}>
+                    {data.title}
+                  </a>
                   <br />
                   {data.snippet}
                 </li>
