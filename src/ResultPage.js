@@ -9,7 +9,7 @@ const API_ENDPOINT = `https://www.googleapis.com/customsearch/v1?key=${API_KEY}&
 function ResultPage() {
   const location = useLocation();
   const navigate = useNavigate();
-  const initialSearch = location.state?.search;
+  const initialSearch = location.state?.search || "Google";
 
   const [search, setSearch] = useState(initialSearch);
   const [results, setResults] = useState([]);
@@ -54,7 +54,8 @@ function ResultPage() {
             </a>
           </li>
           <li>
-            <form onSubmit={handleSearch} className={style.searchForm}>
+            <form onSubmit={handleSearch} >
+              <div className={style.wrapper}>
               <input
                 type="text"
                 className={style.Search}
@@ -68,7 +69,7 @@ function ResultPage() {
                   alt="Search"
                   className={style.icon}
                 />
-              </button>
+              </button></div>
             </form>
           </li>
         </ul>
